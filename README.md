@@ -9,8 +9,7 @@ Built with **Angular** (frontend) + **ASP.NET Core** (backend) + **C#**.
 
 ## 👨‍💻 Developer
 
-**Intern:** [Your Name Here]
-**Team Lead:** Amoudi
+**Intern:** Mahdi
 **Duration:** 2 weeks
 **Company:** Nullam / Tahaluf Al Emarat Technical Solutions
 
