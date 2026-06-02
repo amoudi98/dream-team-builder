@@ -13,7 +13,7 @@
     <h2>Jude Bellingham</h2>
     <span>CAM • #5</span>
   </div>
-  <div class="player-stats">
+  <div class="player-stats" id="stats-section" style="display: none;">
     <div class="stat">
       <span class="stat-value">18</span>
       <span class="stat-label">Goals</span>
@@ -26,15 +26,9 @@
       <span class="stat-value">92</span>
       <span class="stat-label">Rating</span>
     </div>
+  </div>
+  <button onclick="toggleStats()" id="stats-btn">
+      Show Stats ▼
+  </button>
   </body>
 </html>
-</button>
-<div id="stats-section" style="display: none;">
-  <!-- your stats here -->
-</div><button onclick="toggleStats()" id="stats-btn">
-  Show Stats ▼
-</button>
-<div id="stats-section" style="display: none;">
-  <!-- your stats here -->
-</div>
-<div></div>
