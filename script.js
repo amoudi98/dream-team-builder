@@ -26,3 +26,12 @@ function addToSquad() {
       '✅ Squad Full!'
   }
 }
+
+function resetSquad() {
+  squadCount = 0
+  document.getElementById('count').textContent = 
+    squadCount + ' / ' + MAX_PLAYERS
+  document.getElementById('add-btn').disabled = false
+  document.getElementById('add-btn').textContent = 
+    'Add to Squad'
+}
